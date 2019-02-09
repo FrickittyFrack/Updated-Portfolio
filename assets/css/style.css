@@ -1,0 +1,266 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+#my-face {
+    width: 193px;
+    height: 246px;
+    padding: 10px;
+    margin-right: 17px;
+    border-radius: 100px;
+}
+
+#a-flip-fricking-awesome-title-card {
+    padding: 200px 0;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#an-about-me-section {
+    padding: 120px 200px 120px 200px;
+    color: slategrey;
+}
+
+.my-thingy-icons {
+    padding: 20px;
+    display: inline-block;
+}
+
+.fake {
+    padding-right: 15px;
+}
+
+.a-div-to-hold-these-so-they-look-pretty {
+    display: inline-block;
+}
+
+#fascinating-info-about-me {
+    color: rgb(161, 88, 209);
+    text-align: center;
+}
+
+#a-portfolio-section {
+    padding: 120px 100px 120px 100px;
+    color: slategrey;
+}
+
+.git:link,.git:hover:visited {
+    color: white;
+    padding: 14px 25px;
+    border-radius: 2px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition-duration: 0.4s;
+}
+
+.git:hover, .git:active {
+    text-decoration: none;
+    background-color: rgb(164, 91, 231);
+    color: white;
+}
+
+.port {
+    padding: 10px;
+    text-align: center;
+}
+
+.page-link {
+    transition: transform .2s;
+}
+
+.page-link:hover {
+    transform: scale(1);
+}
+
+#div-to-hold-letter-game {
+    background-image: url("../images/letters.jpg");
+    height: 250px;
+    width: 450px;
+}
+
+#div-to-hold-crystal-game {
+    background-image: url("../images/crystal-collector.PNG");
+    height: 250px;
+    width: 450px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div-to-hold-trivia-game {
+    background-image: url("../images/siege-game.PNG");
+    height: 250px;
+    width: 450px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div-to-hold-gify {
+    background-image: url("../images/gifs-glore.PNG");
+    height: 250px;
+    width: 450px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div-to-hold-RPS-game {
+    background-image: url("../images/rock-paper-scissors.PNG");
+    height: 250px;
+    width: 450px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div-to-hold-funhub {
+    background-image: url("../images/funhub.PNG");
+    height: 250px;
+    width: 450px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div-to-hold-meta-link {
+    background-image: url("../images/meta.PNG");
+    height: 250px;
+    width: 450px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#links-to-projects-that-probably-work {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.port-labels {
+    color: #ffffff;
+    background-color: rgb(164, 91, 231);
+    opacity: 0.91;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 41px;
+}
+
+.portfolio-image {
+    position: relative;
+    flex: 100px;
+    margin: 20px;
+}
+
+#a-find-me-section {
+    padding: 120px 100px 120px 100px;
+    color: slategrey;
+    text-align: center;
+}
+
+.float {
+    display: inline-block;
+    padding: 25px;
+}
+
+.top {
+    display: inline-block;
+    padding: 25px 75px 25px 75px;
+}
+
+.right {
+    border-right: solid rgb(228, 228, 228) 1px;
+    padding-left: 25px;
+}
+
+.left {
+    border-left: solid rgb(228, 228, 228) 1px;
+    padding-right: 25px;
+}
+
+.super-great-descriptive-text {
+    font-size: 20px;
+}
+  
+.parallax { 
+    background-image: url("../images/laptop-keyboard-wallpaper-4.jpg");
+
+    height: 100%; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.a-second-parallax { 
+    background-image: url("../images/this-is-fine.jpeg");
+
+    height: 20%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 26px 45px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    color: rgb(164, 91, 231);
+    font-size: 24px;
+}
+
+.a-third-parallax { 
+    background-image: url("../images/glaxay.jpg");
+
+    height: 35%; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 90px 45px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.a-forth-parallax { 
+    background-image: url("../images/glaxay.jpg");
+
+    height: 20%; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa-power-off {
+    color: rgb(106, 13, 192);
+
+}
+
+.an-average-footer {
+    color: white;
+    background-color: rgb(46, 46, 46);
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
