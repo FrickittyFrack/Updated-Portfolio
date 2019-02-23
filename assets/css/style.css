@@ -212,13 +212,6 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    padding: 26px 45px;
-    text-shadow: 2px 2px 3px rgb(0, 0, 0);
-    font-weight: bold;
-    text-align: center;
-    color: rgb(164, 91, 231);
-    font-size: 24px;
 }
 
 .a-third-parallax { 
@@ -230,7 +223,9 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
+.holding-div {
     padding: 90px 45px;
     text-shadow: 2px 2px 3px rgb(0, 0, 0);
     font-weight: bold;
@@ -263,4 +258,92 @@ body, html {
     text-align: center;
     padding: 10px;
     width: 100%;
+}
+
+/*---------------------------------------------------*/
+/*------------------Media Queries--------------------*/
+/*---------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+
+    #a-flip-fricking-awesome-title-card {
+        width: 176%;
+        height: 535px;
+        padding: 95px 0;
+
+    }
+  
+    #an-about-me-section {
+        padding: 53px 48px 37px 48px;
+        width: 176%;
+        font-size: 19px;
+    }
+
+    .a-second-parallax { 
+        background-image: url("../images/this_is_fine_mobile.jpg");
+    
+        height: 24%;
+        width: 176%;
+
+        background-attachment: scroll;
+    }
+
+    .a-third-parallax {     
+        height: 28%; 
+        width: 176%;
+        position: relative;
+    
+        background-attachment: scroll;
+    }
+
+    .a-forth-parallax { 
+        height: 6%;
+        width: 176%;
+
+        background-attachment: scroll;
+    }
+
+    #holding-div {
+        padding: 28px 45px;
+    }
+
+    #holding-div-2 {
+        padding: 58px 45px;
+    }
+
+    #a-portfolio-section {
+        padding: 53px 48px 37px 48px;
+        width: 176%;
+    }
+
+    #links-to-projects-that-probably-work {
+        font-size: 20px;
+    }
+    
+    .port-labels {
+        font-size: 26px;
+    }
+
+    #a-find-me-section {
+        padding: 53px 48px 37px 48px;
+        width: 176%;
+    }
+
+    .left {
+        border-left: none;
+        padding-right: 25px;
+    }
+
+    .top {
+        padding: 43px 43px 25px 75px;
+    }
+
+    .float {
+        padding: 13px;
+    }
+
+    .an-average-footer {
+        padding: 10px;
+        width: 176%;
+    }
 }
